@@ -9,8 +9,7 @@ class listaKudos extends StatelessWidget {
       children: <Widget>[
         ItemKudo('Um Kudo estudante', 'Você estava prestando atenção',
             Icons.thumb_up),
-        ItemKudo(
-            'Um Kudo lol', 'Você estava jogando lol na aula', Icons.thumb_down),
+        ItemKudo('Um Kudo lol', 'Você estava jogando lol na aula', Icons.thumb_down),
       ],
     );
   }
