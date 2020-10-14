@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:meuAppteste/material/AulaMaterail2.dart';
-import 'file:///C:/users/belmi/PraticasFujioka/meuAppTeste/lib/exercicios/MaterialShowImage.dart';
+
+import 'file:///C:/users/belmi/FluterApps/meuAppTeste/lib/exercicios/MaterialShowImage.dart';
 import 'package:meuAppteste/material/AulaMaterial.dart';
+import 'package:meuAppteste/material/AulaMaterial3.dart';
+import 'package:meuAppteste/material/AulaMaterialMain.dart';
 import 'package:meuAppteste/rotas/kudoMain.dart';
 
 //AulaMaterial 01
@@ -16,7 +19,7 @@ import 'package:meuAppteste/rotas/kudoMain.dart';
 */
 
 //void main() => runApp(MaterialApp(home: AulaMaterialApp2())); // MaterialApp
-void main() => runApp(MaterialApp(home: AulaMaterialApp2()));
+void main() => runApp(MaterialApp(home: Main()));
 
 class HelloWorldApp extends StatelessWidget {
   @override

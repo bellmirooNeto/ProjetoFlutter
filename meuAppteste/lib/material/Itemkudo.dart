@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
+import 'package:meuAppteste/material/Pedido.dart';
 
 class ItemKudo extends StatelessWidget {
   final String titulo;
@@ -15,6 +15,12 @@ class ItemKudo extends StatelessWidget {
       leading: Icon(this.icon),
       title: Text(titulo),
       subtitle: Text(mensagem),
+      onLongPress: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => Pedido()),
+        );
+      },
     ));
   }
 }

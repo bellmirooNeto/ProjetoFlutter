@@ -7,9 +7,11 @@ class listaKudos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        ItemKudo('Um Kudo estudante', 'Você estava prestando atenção',
-            Icons.thumb_up),
-        ItemKudo('Um Kudo lol', 'Você estava jogando lol na aula', Icons.thumb_down),
+        ItemKudo('Café', 'Pedido 001', Icons.local_cafe),
+        ItemKudo('Hamburger', 'Pedido 002', Icons.fastfood),
+        ItemKudo('Pizza G Portuguesa', 'Pedido 003', Icons.local_pizza),
+        ItemKudo('Bolo de chocolate', 'Pedido 004', Icons.cake),
+        ItemKudo('Refrigerante Coca 3L', 'Pedido 005', Icons.local_drink),
       ],
     );
   }
