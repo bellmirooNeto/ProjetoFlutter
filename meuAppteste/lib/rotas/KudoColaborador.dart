@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class KudoColaborador extends StatelessWidget {
+  String _nome;
+
   @override
   Widget build(BuildContext context) {
     var imageColaborador = Image.network(
