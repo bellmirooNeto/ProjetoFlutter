@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meuAppteste/material/AulaMaterail2.dart';
 
-import 'file:///C:/users/belmi/FluterApps/meuAppTeste/lib/exercicios/MaterialShowImage.dart';
-import 'package:meuAppteste/material/AulaMaterial.dart';
 import 'package:meuAppteste/material/AulaMaterial3.dart';
 import 'package:meuAppteste/material/AulaMaterialMain.dart';
 import 'package:meuAppteste/rotas/kudoMain.dart';
