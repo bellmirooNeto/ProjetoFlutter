@@ -3,6 +3,9 @@ import 'package:meuAppteste/material/AulaMaterail2.dart';
 
 import 'package:meuAppteste/material/AulaMaterial3.dart';
 import 'package:meuAppteste/material/AulaMaterialMain.dart';
+import 'package:meuAppteste/rotas/CadastroUsuarios.dart';
+import 'package:meuAppteste/rotas/CadastrosProjetos.dart';
+
 import 'package:meuAppteste/rotas/kudoMain.dart';
 
 //AulaMaterial 01
@@ -15,9 +18,9 @@ import 'package:meuAppteste/rotas/kudoMain.dart';
   home: AulaMaterialApp02(),
 )); // Mat
 */
-
+void main() => runApp(MaterialApp(home: CadastroUsuarios()));
 //void main() => runApp(MaterialApp(home: AulaMaterialApp2())); // MaterialApp
-void main() => runApp(MaterialApp(home: Main()));
+//  void main() => runApp(MaterialApp(home: Main()));
 
 class HelloWorldApp extends StatelessWidget {
   @override
