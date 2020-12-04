@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:meuAppteste/rotas/KudoColaborador.dart';
-import 'package:meuAppteste/rotas/Kudos.dart';
-import 'package:meuAppteste/rotas/kudoAmizade.dart';
+import 'package:meuAppteste/rotas/CadastroUsuarios.dart';
+import 'package:meuAppteste/rotas/Realizado.dart';
+import 'package:meuAppteste/rotas/Agendamentos.dart';
+import 'package:meuAppteste/rotas/inicio.dart';
+import 'package:meuAppteste/rotas/login.dart';
+import 'package:meuAppteste/rotas/CriarAgendamento.dart';
 
-class MyApp extends StatelessWidget {
+class KudoMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: 'kudos',
+        initialRoute: 'inicio',
         routes: {
-          'kudos': (context) => Kudos(),
-          'kudoColaborador': (context) => KudoColaborador(),
-          'kudoAmizade': (context) => KudoAmizade()
+          'inicio': (context) => inicio(),
+          'login': (context) => login(),
+          'CriarAgendamento': (context) => CriarAgendamento(),
+          'Agendamentos': (context) => Agendamentos(),
+          'CadastroUsuarios': (context) => CadastroUsuarios(),
+          'Realizado': (context) => Realizado(),
         });
   }
 }
