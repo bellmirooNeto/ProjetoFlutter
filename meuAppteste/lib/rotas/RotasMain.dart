@@ -6,7 +6,7 @@ import 'package:meuAppteste/rotas/inicio.dart';
 import 'package:meuAppteste/rotas/login.dart';
 import 'package:meuAppteste/rotas/CriarAgendamento.dart';
 
-class KudoMain extends StatelessWidget {
+class RotasMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
