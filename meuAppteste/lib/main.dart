@@ -21,7 +21,7 @@ import 'package:meuAppteste/rotas/kudoMain.dart';
 void main() => runApp(MaterialApp(home: CadastroUsuarios()));
 //void main() => runApp(MaterialApp(home: AulaMaterialApp2())); // MaterialApp
 //  void main() => runApp(MaterialApp(home: Main()));
-
+/*
 class HelloWorldApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -126,3 +126,4 @@ class _MyMaterialPageState extends State<MyMaterialPage> {
     });
   }
 }
+*/
