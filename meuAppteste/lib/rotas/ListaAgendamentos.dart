@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:meuAppteste/material/Itemkudo.dart';
 import 'package:meuAppteste/rotas/Agendados.dart';
 
 class listaAgendamentos extends StatelessWidget {

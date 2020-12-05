@@ -5,7 +5,7 @@ import 'package:meuAppteste/material/AulaMaterial3.dart';
 import 'package:meuAppteste/material/AulaMaterialMain.dart';
 import 'package:meuAppteste/rotas/CadastroUsuarios.dart';
 
-import 'package:meuAppteste/rotas/kudoMain.dart';
+import 'package:meuAppteste/rotas/RotasMain.dart';
 
 //AulaMaterial 01
 //AulaMaterial 01
@@ -17,7 +17,7 @@ import 'package:meuAppteste/rotas/kudoMain.dart';
   home: AulaMaterialApp02(),
 )); // Mat
 */
-void main() => runApp(KudoMain());
+void main() => runApp(RotasMain());
 //void main() => runApp(MaterialApp(home: AulaMaterialApp2())); // MaterialApp
 //  void main() => runApp(MaterialApp(home: Main()));
 /*

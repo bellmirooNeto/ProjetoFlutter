@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:meuAppteste/rotas/Realizado.dart';
-
 class Agendados extends StatelessWidget {
   final String nome;
   final String mensagem;
@@ -15,12 +13,6 @@ class Agendados extends StatelessWidget {
       leading: Icon(this.icon),
       title: Text(nome),
       subtitle: Text(mensagem),
-      onLongPress: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => Realizado()),
-        );
-      },
     ));
   }
 }

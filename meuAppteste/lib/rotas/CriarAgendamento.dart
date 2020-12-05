@@ -77,7 +77,7 @@ class CriarAgendamento extends StatelessWidget {
                     } else if (matricula == "") {
                       AlertDialog alert = AlertDialog(
                         title: Text("Erro"),
-                        content: Text("Preencha a matricula"),
+                        content: Text("Preencha os campos"),
                         backgroundColor: Colors.red,
                       );
                       // show the dialog
@@ -90,7 +90,7 @@ class CriarAgendamento extends StatelessWidget {
                     } else if (nome == "") {
                       AlertDialog alert = AlertDialog(
                         title: Text("Erro"),
-                        content: Text("Preencha o nome"),
+                        content: Text("Preencha os campos"),
                         backgroundColor: Colors.red,
                       );
                       // show the dialog
@@ -103,7 +103,7 @@ class CriarAgendamento extends StatelessWidget {
                     } else if (data == "") {
                       AlertDialog alert = AlertDialog(
                         title: Text("Erro"),
-                        content: Text("Preencha a data"),
+                        content: Text("Preencha os campos"),
                         backgroundColor: Colors.red,
                       );
                       // show the dialog
@@ -116,7 +116,7 @@ class CriarAgendamento extends StatelessWidget {
                     } else if (assunto == "") {
                       AlertDialog alert = AlertDialog(
                         title: Text("Erro"),
-                        content: Text("Preencha o assunto"),
+                        content: Text("Preencha os campos"),
                         backgroundColor: Colors.red,
                       );
                       // show the dialog

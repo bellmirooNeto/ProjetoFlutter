@@ -14,9 +14,9 @@ class inicio extends StatelessWidget {
               SizedBox(height: 40),
               RaisedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, 'login');
+                  Navigator.pushNamed(context, 'Agendamentos');
                 },
-                child: Text("Fazer Login"),
+                child: Text("Agendamentos"),
               ),
               SizedBox(height: 40),
               RaisedButton(

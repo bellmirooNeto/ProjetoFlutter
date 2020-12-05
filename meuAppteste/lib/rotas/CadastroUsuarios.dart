@@ -73,9 +73,113 @@ class CadastroUsuarios extends StatelessWidget {
                     final String email = _controladorEmail.text;
                     final String senha = _controladorSenha.text;
 
-                    final Usuarios usuarioNovo = Usuarios(username, nome,
-                        sobrenome, dataNascimento, email, senha);
-                    print(usuarioNovo);
+                    if (username != "" &&
+                        nome != "" &&
+                        sobrenome != "" &&
+                        dataNascimento != "" &&
+                        email != "" &&
+                        senha != "") {
+                      Navigator.pushNamed(context, 'Agendamentos');
+                    } else if (username == "" &&
+                        nome == "" &&
+                        sobrenome == "" &&
+                        dataNascimento == "" &&
+                        email == "" &&
+                        senha == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos."),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                    } else if (username == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos"),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                    } else if (nome == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos"),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                    } else if (sobrenome == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos"),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                    } else if (dataNascimento == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos"),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                    } else if (email == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos"),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                    } else if (senha == "") {
+                      AlertDialog alert = AlertDialog(
+                        title: Text("Erro"),
+                        content: Text("Preencha os campos"),
+                        backgroundColor: Colors.red,
+                      );
+                      // show the dialog
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return alert;
+                        },
+                      );
+                      final Usuarios usuarioNovo = Usuarios(username, nome,
+                          sobrenome, dataNascimento, email, senha);
+                      print(usuarioNovo);
+                    }
                   },
                 ),
               ),

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:meuAppteste/rotas/CadastroUsuarios.dart';
-import 'package:meuAppteste/rotas/Realizado.dart';
 import 'package:meuAppteste/rotas/Agendamentos.dart';
 import 'package:meuAppteste/rotas/inicio.dart';
-import 'package:meuAppteste/rotas/login.dart';
+
 import 'package:meuAppteste/rotas/CriarAgendamento.dart';
 
 class RotasMain extends StatelessWidget {
@@ -14,11 +13,9 @@ class RotasMain extends StatelessWidget {
         initialRoute: 'inicio',
         routes: {
           'inicio': (context) => inicio(),
-          'login': (context) => login(),
           'CriarAgendamento': (context) => CriarAgendamento(),
           'Agendamentos': (context) => Agendamentos(),
           'CadastroUsuarios': (context) => CadastroUsuarios(),
-          'Realizado': (context) => Realizado(),
         });
   }
 }
